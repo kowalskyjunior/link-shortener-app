@@ -28,14 +28,14 @@ function Header() {
                         <li>Resources</li>
                     </ul>
 
-                </div>{/*logo*/}
+                </div>
 
                 <div className="hamburger-mobile" onClick={handleMenu} ><GiHamburgerMenu /></div>
 
                 <div className="login-header">
                     <button className='btn-login'>Login</button>
                     <button className='btn-sign-up'>Sign Up</button>
-                </div>{/*login-header*/}
+                </div>
 
             </nav>
             <div className="container-mobile">

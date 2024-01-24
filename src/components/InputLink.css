@@ -1,0 +1,102 @@
+.input-wraper{
+    margin-top: 5rem;
+    background-image: url(../assets/bg-shorten-desktop.svg);
+    background-position: center;
+    background-size: 100% 100%;
+    border-radius: .5rem;
+    background-color: hsl(257, 27%, 26%);
+    height: 100px;
+    display: flex;
+    padding: .1rem;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+form,.shorten-input{
+    width: 95%;
+    height: 80%;
+    padding-left: 1rem;
+    border-radius: .5rem;
+    border: none;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.shorten-btn{
+    width: 15%;
+    height: 80%;
+    margin-left: 1rem;
+    border: none;
+    border-radius: .5rem;
+    background-color: hsl(180, 66%, 49%);
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    font-size: 16px;
+}
+
+.shorten-btn:hover{
+    background-color: hsla(180, 66%, 49%, 0.596);
+}
+
+.input-single{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #cccccc70;
+    margin-top: 1rem;
+    border-radius: .2rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.link-shorted{
+    color: hsl(180, 66%, 49%);
+    font-weight: 500;
+}
+
+.btn-copy{
+    width: 80px;
+    height: 30px;
+    background-color: hsl(180, 66%, 49%);
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    margin-left: 1rem;
+    border-radius: .2rem;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.shorten-input{
+    background-color: #ffffff7e;
+    outline: none;
+}
+
+.btn-copy:hover{
+    background-color: hsla(180, 66%, 49%, 0.596);
+}
+
+a, .link-url{
+    text-decoration: none;
+}
+
+.btn-copy:focus{
+    background-color: hsla(180, 33%, 16%, 0.596);
+}
+
+.error-border{
+    border: 3px solid red;
+}
+
+.error-message{
+    margin-left: 3rem;
+    color: red;
+}

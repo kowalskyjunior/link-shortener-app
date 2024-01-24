@@ -1,0 +1,103 @@
+/*
+### Primary
+
+- Cyan: hsl(180, 66%, 49%)
+- Dark Violet: hsl(257, 27%, 26%)
+
+### Secondary
+
+- Red: hsl(0, 87%, 67%)
+
+### Neutral
+
+- Gray: hsl(0, 0%, 75%)
+- Grayish Violet: hsl(257, 7%, 63%)
+- Very Dark Blue: hsl(255, 11%, 22%)
+- Very Dark Violet: hsl(260, 8%, 14%)
+
+## Typography
+
+### Body Copy
+
+- Font size: 18px*/
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.mobile-wraper{
+    display: block;
+}
+
+header{
+    padding: 1.5rem;
+}
+
+.logo{
+    display: flex;
+    flex: 1;
+}
+
+.hamburger-mobile{
+    display: none;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex: 1;
+}
+
+li{
+    display: inline-block;
+    position: relative;
+    top: .5rem;
+    margin-left: 1.2rem;
+    color: hsl(0, 0%, 75%);
+    font-weight: 700;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+li:hover{
+    color: hsl(255, 11%, 22%);
+    
+}
+
+.login-header button{
+    border: none;
+    width: 90px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.btn-login{
+    margin-right: .5rem;
+    font-weight: 700;
+    background-color: #fff;
+    color: hsl(257, 7%, 63%);
+    border-radius: 2rem;
+    transition: 0.2s ease-in-out;
+}
+
+.btn-login:hover{
+    background-color: #ccc;
+    color: #fff;
+}
+
+.btn-sign-up{
+    background-color: hsl(180, 66%, 49%);
+    border-radius: 2rem;
+    color: #fff;
+    font-weight: 700;
+    transition: 0.2s ease-in-out;
+}
+
+.btn-sign-up:hover{
+    background-color: hsla(180, 66%, 49%, 0.596);
+}
+

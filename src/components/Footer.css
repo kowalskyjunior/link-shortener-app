@@ -1,0 +1,90 @@
+.boost-wraper{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8rem;
+    padding: 4rem;
+    background-color: hsl(257, 27%, 26%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../assets/bg-boost-desktop.svg);
+}
+
+.boost-text h2{
+    font-size: 30px;
+    color: #fff;
+}
+
+.boost-text button{
+    padding: .5rem;
+    margin-top: 1rem;
+    width: 150px;
+    border-radius: 1rem;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: hsl(180, 66%, 49%);
+    color: #fff;
+    border: none;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.boost-text button:hover{
+    background-color: hsla(180, 66%, 49%, 0.596);
+}
+
+.footer-wraper{
+    margin-top: 5rem;
+    justify-content: space-between;
+    display: flex;
+}
+
+.footer{
+    background-color: hsl(260, 8%, 14%);
+    padding-bottom: 1rem;
+}
+
+.footer-logo img{
+    filter: brightness(1000%);
+}
+
+.footer-social{
+    display: flex;
+}
+
+.footer-wraper h2{
+    font-size: 18px;
+    margin-bottom: 1rem;
+}
+
+.footer p{
+    font-size: 15px;
+    cursor: pointer;
+    margin-bottom: .3rem;
+}
+
+.footer-social img{
+    margin-left: 1rem;
+    position: relative;
+    top: .5rem;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.footer-social img:hover{
+    filter: hue-rotate(180deg) saturate(66%) brightness(49%);
+}
+
+.footer-wraper h2{
+    color: #fff;
+}
+
+.footer-wraper p{
+    color: #fff;
+    transition: .2s;
+}
+
+.footer-wraper p:hover{
+    color: #ffffff73;
+}
